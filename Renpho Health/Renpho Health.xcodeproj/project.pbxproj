@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E542463929252AEA0041E7ED /* Renpho_HealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542463829252AEA0041E7ED /* Renpho_HealthApp.swift */; };
+		E542463B29252AEA0041E7ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542463A29252AEA0041E7ED /* ContentView.swift */; };
+		E542463D29252AEA0041E7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E542463C29252AEA0041E7ED /* Assets.xcassets */; };
+		E542464029252AEA0041E7ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E542463F29252AEA0041E7ED /* Preview Assets.xcassets */; };
+		E542464A29252AEB0041E7ED /* Renpho_HealthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542464929252AEB0041E7ED /* Renpho_HealthTests.swift */; };
+		E542465429252AEB0041E7ED /* Renpho_HealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542465329252AEB0041E7ED /* Renpho_HealthUITests.swift */; };
+		E542465629252AEB0041E7ED /* Renpho_HealthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542465529252AEB0041E7ED /* Renpho_HealthUITestsLaunchTests.swift */; };
+		E54246692926928B0041E7ED /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54246682926928B0041E7ED /* Model.swift */; };
+		E542466B292694200041E7ED /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542466A292694200041E7ED /* Carousel.swift */; };
+		E542466D2927E8D50041E7ED /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542466C2927E8D50041E7ED /* Weight.swift */; };
+		E5424678292D1C9C0041E7ED /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424677292D1C9C0041E7ED /* UserSettings.swift */; };
+		E542467A292D25610041E7ED /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5424679292D25610041E7ED /* MyCard.swift */; };
+		E542467C292D29E60041E7ED /* Fitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542467B292D29E60041E7ED /* Fitness.swift */; };
+		E542467E292D29F70041E7ED /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E542467D292D29F70041E7ED /* Nutrition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E542464629252AEB0041E7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E542462D29252AEA0041E7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E542463429252AEA0041E7ED;
+			remoteInfo = "Renpho Health";
+		};
+		E542465029252AEB0041E7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E542462D29252AEA0041E7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E542463429252AEA0041E7ED;
+			remoteInfo = "Renpho Health";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E542463529252AEA0041E7ED /* Renpho Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Renpho Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E542463829252AEA0041E7ED /* Renpho_HealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renpho_HealthApp.swift; sourceTree = "<group>"; };
+		E542463A29252AEA0041E7ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E542463C29252AEA0041E7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E542463F29252AEA0041E7ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E542464529252AEB0041E7ED /* Renpho HealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Renpho HealthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E542464929252AEB0041E7ED /* Renpho_HealthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renpho_HealthTests.swift; sourceTree = "<group>"; };
+		E542464F29252AEB0041E7ED /* Renpho HealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Renpho HealthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E542465329252AEB0041E7ED /* Renpho_HealthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renpho_HealthUITests.swift; sourceTree = "<group>"; };
+		E542465529252AEB0041E7ED /* Renpho_HealthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renpho_HealthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E54246682926928B0041E7ED /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E542466A292694200041E7ED /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		E542466C2927E8D50041E7ED /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		E5424677292D1C9C0041E7ED /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		E5424679292D25610041E7ED /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
+		E542467B292D29E60041E7ED /* Fitness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness.swift; sourceTree = "<group>"; };
+		E542467D292D29F70041E7ED /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E542463229252AEA0041E7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464229252AEB0041E7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464C29252AEB0041E7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E542462C29252AEA0041E7ED = {
+			isa = PBXGroup;
+			children = (
+				E542463729252AEA0041E7ED /* Renpho Health */,
+				E542464829252AEB0041E7ED /* Renpho HealthTests */,
+				E542465229252AEB0041E7ED /* Renpho HealthUITests */,
+				E542463629252AEA0041E7ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E542463629252AEA0041E7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E542463529252AEA0041E7ED /* Renpho Health.app */,
+				E542464529252AEB0041E7ED /* Renpho HealthTests.xctest */,
+				E542464F29252AEB0041E7ED /* Renpho HealthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E542463729252AEA0041E7ED /* Renpho Health */ = {
+			isa = PBXGroup;
+			children = (
+				E542463829252AEA0041E7ED /* Renpho_HealthApp.swift */,
+				E542463A29252AEA0041E7ED /* ContentView.swift */,
+				E542466C2927E8D50041E7ED /* Weight.swift */,
+				E542466A292694200041E7ED /* Carousel.swift */,
+				E54246682926928B0041E7ED /* Model.swift */,
+				E542463C29252AEA0041E7ED /* Assets.xcassets */,
+				E542463E29252AEA0041E7ED /* Preview Content */,
+				E5424677292D1C9C0041E7ED /* UserSettings.swift */,
+				E5424679292D25610041E7ED /* MyCard.swift */,
+				E542467B292D29E60041E7ED /* Fitness.swift */,
+				E542467D292D29F70041E7ED /* Nutrition.swift */,
+			);
+			path = "Renpho Health";
+			sourceTree = "<group>";
+		};
+		E542463E29252AEA0041E7ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E542463F29252AEA0041E7ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E542464829252AEB0041E7ED /* Renpho HealthTests */ = {
+			isa = PBXGroup;
+			children = (
+				E542464929252AEB0041E7ED /* Renpho_HealthTests.swift */,
+			);
+			path = "Renpho HealthTests";
+			sourceTree = "<group>";
+		};
+		E542465229252AEB0041E7ED /* Renpho HealthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E542465329252AEB0041E7ED /* Renpho_HealthUITests.swift */,
+				E542465529252AEB0041E7ED /* Renpho_HealthUITestsLaunchTests.swift */,
+			);
+			path = "Renpho HealthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E542463429252AEA0041E7ED /* Renpho Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E542465929252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho Health" */;
+			buildPhases = (
+				E542463129252AEA0041E7ED /* Sources */,
+				E542463229252AEA0041E7ED /* Frameworks */,
+				E542463329252AEA0041E7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Renpho Health";
+			productName = "Renpho Health";
+			productReference = E542463529252AEA0041E7ED /* Renpho Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E542464429252AEB0041E7ED /* Renpho HealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E542465C29252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho HealthTests" */;
+			buildPhases = (
+				E542464129252AEB0041E7ED /* Sources */,
+				E542464229252AEB0041E7ED /* Frameworks */,
+				E542464329252AEB0041E7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E542464729252AEB0041E7ED /* PBXTargetDependency */,
+			);
+			name = "Renpho HealthTests";
+			productName = "Renpho HealthTests";
+			productReference = E542464529252AEB0041E7ED /* Renpho HealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E542464E29252AEB0041E7ED /* Renpho HealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E542465F29252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho HealthUITests" */;
+			buildPhases = (
+				E542464B29252AEB0041E7ED /* Sources */,
+				E542464C29252AEB0041E7ED /* Frameworks */,
+				E542464D29252AEB0041E7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E542465129252AEB0041E7ED /* PBXTargetDependency */,
+			);
+			name = "Renpho HealthUITests";
+			productName = "Renpho HealthUITests";
+			productReference = E542464F29252AEB0041E7ED /* Renpho HealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E542462D29252AEA0041E7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					E542463429252AEA0041E7ED = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					E542464429252AEB0041E7ED = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E542463429252AEA0041E7ED;
+					};
+					E542464E29252AEB0041E7ED = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = E542463429252AEA0041E7ED;
+					};
+				};
+			};
+			buildConfigurationList = E542463029252AEA0041E7ED /* Build configuration list for PBXProject "Renpho Health" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E542462C29252AEA0041E7ED;
+			productRefGroup = E542463629252AEA0041E7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E542463429252AEA0041E7ED /* Renpho Health */,
+				E542464429252AEB0041E7ED /* Renpho HealthTests */,
+				E542464E29252AEB0041E7ED /* Renpho HealthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E542463329252AEA0041E7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E542464029252AEA0041E7ED /* Preview Assets.xcassets in Resources */,
+				E542463D29252AEA0041E7ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464329252AEB0041E7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464D29252AEB0041E7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E542463129252AEA0041E7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E542466D2927E8D50041E7ED /* Weight.swift in Sources */,
+				E542467E292D29F70041E7ED /* Nutrition.swift in Sources */,
+				E54246692926928B0041E7ED /* Model.swift in Sources */,
+				E542463B29252AEA0041E7ED /* ContentView.swift in Sources */,
+				E5424678292D1C9C0041E7ED /* UserSettings.swift in Sources */,
+				E542463929252AEA0041E7ED /* Renpho_HealthApp.swift in Sources */,
+				E542467C292D29E60041E7ED /* Fitness.swift in Sources */,
+				E542466B292694200041E7ED /* Carousel.swift in Sources */,
+				E542467A292D25610041E7ED /* MyCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464129252AEB0041E7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E542464A29252AEB0041E7ED /* Renpho_HealthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E542464B29252AEB0041E7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E542465629252AEB0041E7ED /* Renpho_HealthUITestsLaunchTests.swift in Sources */,
+				E542465429252AEB0041E7ED /* Renpho_HealthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E542464729252AEB0041E7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E542463429252AEA0041E7ED /* Renpho Health */;
+			targetProxy = E542464629252AEB0041E7ED /* PBXContainerItemProxy */;
+		};
+		E542465129252AEB0041E7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E542463429252AEA0041E7ED /* Renpho Health */;
+			targetProxy = E542465029252AEB0041E7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E542465729252AEB0041E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E542465829252AEB0041E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E542465A29252AEB0041E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Renpho Health/Preview Content\"";
+				DEVELOPMENT_TEAM = A3LX6F4ZF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E542465B29252AEB0041E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Renpho Health/Preview Content\"";
+				DEVELOPMENT_TEAM = A3LX6F4ZF8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-Health";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E542465D29252AEB0041E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-HealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renpho Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Renpho Health";
+			};
+			name = Debug;
+		};
+		E542465E29252AEB0041E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-HealthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Renpho Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Renpho Health";
+			};
+			name = Release;
+		};
+		E542466029252AEB0041E7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-HealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Renpho Health";
+			};
+			name = Debug;
+		};
+		E542466129252AEB0041E7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fed.Renpho-HealthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Renpho Health";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E542463029252AEA0041E7ED /* Build configuration list for PBXProject "Renpho Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E542465729252AEB0041E7ED /* Debug */,
+				E542465829252AEB0041E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E542465929252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E542465A29252AEB0041E7ED /* Debug */,
+				E542465B29252AEB0041E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E542465C29252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho HealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E542465D29252AEB0041E7ED /* Debug */,
+				E542465E29252AEB0041E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E542465F29252AEB0041E7ED /* Build configuration list for PBXNativeTarget "Renpho HealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E542466029252AEB0041E7ED /* Debug */,
+				E542466129252AEB0041E7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E542462D29252AEA0041E7ED /* Project object */;
+}
